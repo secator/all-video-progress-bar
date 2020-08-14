@@ -1,0 +1,20 @@
+{
+  "name": "all-video-progress-bar",
+  "version": "2020.0.0.1",
+  "description": "Progress bar for all <video>",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content_scripts.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {},
+  "manifest_version": 2
+}
